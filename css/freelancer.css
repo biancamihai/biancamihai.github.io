@@ -481,3 +481,11 @@ footer .footer-below {
     display: block
 }
 
+.item-details li {
+    border-left: 1px solid black;
+}
+
+.item-details li:last-of-type, .item-details li:first-of-type {
+    border-left: 0;
+}
+
